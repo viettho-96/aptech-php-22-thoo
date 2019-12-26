@@ -16,9 +16,9 @@
     <div class="form-sign-in d-flex justify-content-center align-items-center" id="form-sign-in">
         <a class="btn btn-out text-white" id = "close-form" onclick="closeFormSignIn()">X</a>
         <div class="container bg-white-opacity w-25 h-50 shadow">
-            <form action="./checkbaitap.php" method="POST" class="flex-column align-items-center h-100 d-flex justify-content-center">
+            <form action="./index2.php" method="POST" class="flex-column align-items-center h-100 d-flex justify-content-center">
                 <h2 class="pb-4 text-black">Sign in</h2>
-                <form action="./checkbaitap.php" method="POST">
+                <form action="./index2.php" method="POST">
                   <input type="email" placeholder="email" name="email">
                   <input type="password" placeholder="password" name="password">
                   <input type="password again" placeholder="password again" name="password again">
